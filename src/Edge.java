@@ -1,5 +1,3 @@
-package maze;
-
 public class Edge {
 
     private final Vertex a;

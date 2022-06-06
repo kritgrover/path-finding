@@ -1,6 +1,5 @@
-package maze;
-
 public class Vertex {
+
     private final int x;
     private final int y;
 

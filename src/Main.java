@@ -43,6 +43,8 @@ public class Main {
                     System.out.println("Enter File Name:");
                     filePath = s.next();
                     maze = Maze.load(filePath);
+                    System.out.println();
+                    System.out.println("Maze loaded!");
                     break;
 
                 case 3:
@@ -50,6 +52,8 @@ public class Main {
                         System.out.println("Enter File Name:");
                         filePath = s.next();
                         maze.save(filePath);
+                        System.out.println();
+                        System.out.println("Maze saved in " + filePath + " in current directory.");
                     } else {
                         System.out.println("ERROR: No maze loaded to save.");
                     }

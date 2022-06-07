@@ -9,13 +9,12 @@ public class Main {
         int size;
         String filePath;
 
-        while (input != 0) {
+        while (input != 6) {
             if (maze != null) {
                 System.out.println();
             }
 
             System.out.println("=== Menu ===");
-            System.out.println("0. Exit");
             System.out.println("1. Generate new maze");
             System.out.println("2. Load existing maze");
 
@@ -23,6 +22,7 @@ public class Main {
                 System.out.println("3. Save current maze");
                 System.out.println("4. Display the maze");
                 System.out.println("5. Find the escape");
+                System.out.println("6. Exit");
             }
 
             input = s.nextInt();
@@ -82,7 +82,7 @@ public class Main {
                     }
                     break;
 
-                case 0:
+                case 6:
                     System.out.println("Goodbye!");
                     break;
 

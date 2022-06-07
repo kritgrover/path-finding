@@ -51,6 +51,7 @@ public class Main {
                         System.out.println("Maze loaded!");
                     } else {
                         System.out.println("Try again or generate one.");
+                        System.out.println();
                     }
                     break;
 

@@ -30,21 +30,28 @@ public class Main {
             switch (input) {
 
                 case 1:
+                    System.out.println();
                     System.out.println("Enter dimensions of new maze:");
                     size = s.nextInt();
 
                     maze = new Maze(size, size);
-
+                    System.out.println();
+                    System.out.println("Generating new maze...");
                     maze.generate();
-                    maze.print();
+                    System.out.println();
+                    System.out.println("Maze generated!");
                     break;
 
                 case 2:
                     System.out.println("Enter File Name:");
                     filePath = s.next();
                     maze = Maze.load(filePath);
-                    System.out.println();
-                    System.out.println("Maze loaded!");
+                    if (maze != null) {
+                        System.out.println();
+                        System.out.println("Maze loaded!");
+                    } else {
+                        System.out.println("Try again or generate one.");
+                    }
                     break;
 
                 case 3:

@@ -13,7 +13,6 @@ A program that implements basic path finding and other operations on a randomly 
 	- Load maze from existing file
 	- Generate new Maze
 <br/>
-<br/>
 <p align="center">
   <img src="images/menu_one.png">
 </p>
@@ -22,6 +21,12 @@ A program that implements basic path finding and other operations on a randomly 
 <br/>
 <p align="center">
   <img src="images/generate.png">
+</p>
+
+- If maze is to be loaded, user is asked to enter the path of the file that is used for importing the maze. Errors are handled.
+<br/>
+<p align="center">
+  <img src="images/load_fail.png"> <img src="images/load_success.png">
 </p>
 
 - Once the maze has been loaded into the program from either of the mentioned options, the maze object in Main.java is updated and other operations are made available for use.

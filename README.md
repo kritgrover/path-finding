@@ -1,23 +1,23 @@
 # Path Finding using a Maze
-A program that implements basic path finding and other operations on a randomly generated maze.
+A program made using Java that implements basic path finding and other operations on a randomly generated maze.
 
 ## Operations:
 - Generate a New Maze
-- Load Maze from existing file
-- Save Maze to file
+- Load Maze from Existing File
+- Save Maze to File
 - Display Loaded Maze
 - Find Escape
 
 ## Working:
 - Once Main.java is run, the user is prompted with 2 options,
+	- Generate new maze
 	- Load maze from existing file
-	- Generate new Maze
 <p align="center">
   <img src="images/menu_one.png" alt="Menu_Initial">
 </p>
 <br/>
 
-- If new maze is to be generated, the user is asked to input an integer as input for the dimensions of the maze.
+- If new maze is to be generated, the user is asked to enter an integer as input for the dimensions of the maze. The generate() function from Maze.java is triggered and a new square maze of specified dimensions is created. 
 <p align="center">
   <img src="images/generate.png" alt="Generating Maze">
 </p>
